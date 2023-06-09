@@ -1,0 +1,82 @@
+[
+  {
+    "trial_details": {
+      "trial_date": "01-06-2023 10:00:00",
+      "trial_name": "Trial 1",
+      "trial_description": "Trial 1 description.",
+      "trial_notes": "Trial 1 notes."
+    },
+    "camera_calibration": {
+      "calibration_data": { },
+      "cameras": [
+        { "camera_id": "1",
+          "camera_position": [ 0.0, 0.0, 0.0 ],
+          "sensor_type": "colour",
+          "video_path": "localserver/01-06-2023/trial1/video1.mp4"
+        },
+        { "camera_id": "2",
+          "camera_position": [ 0.0, 0.0, 0.0 ],
+          "sensor_type": "infrared",
+          "video_path": "localserver/01-06-2023/trial1/video2.mp4"
+        }
+      ]
+    },
+    "motion_capture": {
+      "motion_capture_data": { },
+      "subjects": [
+        {
+          "subject_id": "1",
+          "motion_data": [
+            {
+              "frame_data": { },
+              "frame_number": 0,
+              "position": [ 0.0, 0.0, 0.0 ],
+              "pose": [
+                { "bodypart": "head", "position": [ 0.0, 0.0, 0.0 ], "rotation": [ 0.0, 0.0, 0.0 ] },
+                { "bodypart": "neck", "position": [ 0.0, 0.0, 0.0 ], "rotation": [ 0.0, 0.0, 0.0 ] }
+              ]
+            },
+            {
+              "frame_data": { },
+              "frame_number": 1,
+              "position": [ 0.0, 0.0, 0.0 ],
+              "pose": [
+                { "bodypart": "head", "position": [ 0.0, 0.0, 0.0 ], "rotation": [ 0.0, 0.0, 0.0 ] },
+                { "bodypart": "neck", "position": [ 0.0, 0.0, 0.0 ], "rotation": [ 0.0, 0.0, 0.0 ] }
+              ]
+            }
+          ]
+        },
+        {
+          "subject_id": "2",
+          "motion_data": [
+            {
+              "frame_data": { },
+              "frame_number": 0,
+              "position": [ 0.0, 0.0, 0.0 ],
+              "pose": [
+                { "bodypart": "head", "position": [ 0.0, 0.0, 0.0 ], "rotation": [ 0.0, 0.0, 0.0 ] },
+                { "bodypart": "neck", "position": [ 0.0, 0.0, 0.0 ], "rotation": [ 0.0, 0.0, 0.0 ] }
+              ]
+            },
+            {
+              "frame_data": { },
+              "frame_number": 1,
+              "position": [ 0.0, 0.0, 0.0 ],
+              "pose": [
+                { "bodypart": "head", "position": [ 0.0, 0.0, 0.0 ], "rotation": [ 0.0, 0.0, 0.0 ] },
+                { "bodypart": "neck", "position": [ 0.0, 0.0, 0.0 ], "rotation": [ 0.0, 0.0, 0.0 ] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "metrics": [
+      { "metric_name": "Metric 1", "metric_value": 12.4 },
+      { "metric_name": "Metric 2", "metric_value": 2.6 },
+      { "metric_name": "Metric 3", "metric_value": 468.9 }
+    ],
+    "issue_ids": [ 1, 4, 8 ]
+  }
+]

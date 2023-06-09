@@ -1,2 +1,3 @@
-# dm-system
-Data management system.
+# Data management system task
+
+Currently only contains supporting files for the proposal.
