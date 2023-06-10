@@ -21,7 +21,7 @@ class CameraCalibration(BaseModel):
     
 class BodyPart(BaseModel):
     bodypart: str
-    positon: tuple[float, float, float]
+    position: tuple[float, float, float]
     rotation: tuple[float, float, float]
 
 class Frame(BaseModel):
@@ -50,7 +50,7 @@ class TrialDetails(BaseModel):
 
 class Trial(BaseModel):
     trial_details: TrialDetails
-    camera_calibartion: CameraCalibration
+    camera_calibration: CameraCalibration
     motion_capture: MotionCapture
     metrics: list[Metric]
     issue_ids: list[str]
